@@ -5,10 +5,11 @@ const todo1 = new Todo('Destruir el mundo');
 const todo2 = new Todo('Ir al cine');
 const todo3 = new Todo('Bailar apasionadamente');
 const todo4 = new Todo('Estudiar');
+const todo5 = new Todo('Jugar al fútbol');
 
 todo2.completado = true;
 
-const estadoInicial: Todo[] = [todo1, todo2, todo3, todo4];
+const estadoInicial: Todo[] = [todo1, todo2, todo3, todo4, todo5];
 
 export function todoReducer(
   state = estadoInicial,
